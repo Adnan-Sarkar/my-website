@@ -48,10 +48,9 @@ p {
   color: #363958;
   font-weight: 500;
 }
-#profile .profile-left .profile-left-content h1 span {
+#profile .profile-left .profile-left-content span {
   color: #ff8367;
   font-family: "Bebas Neue", cursive;
-  font-size: 80px;
   font-weight: 500;
 }
 #profile .profile-left .profile-left-content p {
@@ -120,4 +119,149 @@ p {
 }
 #about .about-right .about-left-content a i {
   padding-right: 10px;
+}
+
+#project {
+  height: 1000px;
+  background-color: #f8f9fc;
+}
+#project .project-tittle {
+  text-align: center;
+  padding-top: 70px;
+  padding-bottom: 90px;
+}
+#project .project-tittle h2 {
+  font-family: "Bebas Neue", cursive;
+  font-size: 48px;
+  font-weight: 500;
+  color: #363958;
+}
+#project .project-tittle span {
+  color: #f46060;
+  font-family: "Bebas Neue", cursive;
+  font-weight: 500;
+}
+.project-wrapper {
+  width: 1170px;
+  margin: 0 auto;
+}
+.project-item {
+  width: 340px;
+  background-color: #ffffff;
+  box-shadow: 10px 10px 30px rgb(233, 233, 233);
+  border-radius: 25px;
+  padding: 15px;
+  float: left;
+}
+.project-item img {
+  width: 100%;
+}
+.project-item a h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: #363958;
+}
+.project-item a p {
+  padding-right: 30px;
+}
+.mid-gap {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+#inquiry {
+  height: 700px;
+  padding-bottom: 30px;
+}
+.inquiry-content {
+  margin: 0 auto;
+  width: 1170px;
+  padding-top: 100px;
+}
+.work-inquiry {
+  width: 906px;
+  height: 225px;
+  margin: 0 auto;
+}
+#inquiry .work-inquiry {
+  background-image: url(../images/inquiry.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.work-inquiry-text {
+  padding-left: 75px;
+}
+.work-inquiry-text .text-left {
+  float: left;
+  width: 50%;
+  height: 100%;
+  line-height: 126px;
+}
+.work-inquiry-text h2 {
+  font-family: "Bebas Neue", cursive;
+  font-size: 64px;
+  font-weight: 500;
+  color: #ffffff;
+}
+.work-inquiry-text .text-right {
+  float: left;
+  width: 40%;
+  height: 100%;
+  text-align: right;
+  line-height: 225px;
+}
+.work-inquiry-text a {
+  padding: 20px 30px;
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 500;
+  border-radius: 10px;
+  font-family: "Roboto", sans-serif;
+  background-image: linear-gradient(360deg, #ff8063, #f46060);
+}
+.inquiry-connected {
+  width: 370px;
+  margin: 0 auto;
+  padding-top: 80px;
+  text-align: center;
+}
+.inquiry-connected h5 {
+  font-family: "Bebas Neue", cursive;
+  font-size: 24px;
+  font-weight: 500;
+  color: #696871;
+}
+.inquiry-connected h4 a {
+  font-family: "Roboto", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  color: #363958;
+}
+.inquiry-connected .icons-wrapper {
+  margin: 0 auto;
+  width: 180px;
+  padding-top: 30px;
+}
+.inquiry-connected .icons-wrapper .icon1 {
+  width: 40px;
+  float: left;
+}
+.inquiry-connected .icons-wrapper .icon1 a img {
+  width: 100%;
+}
+.inquiry-connected .icons-wrapper .icon2 {
+  width: 40px;
+  float: left;
+}
+.inquiry-connected .icons-wrapper .icon2 a img {
+  width: 100%;
+}
+.inquiry-connected .icons-wrapper .icon3 {
+  width: 40px;
+  float: left;
+}
+.inquiry-connected .icons-wrapper .icon3 a img {
+  width: 100%;
 }
